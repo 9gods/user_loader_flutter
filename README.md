@@ -1,4 +1,3 @@
-Claro! Aqui está o README completo formatado em Markdown para o seu projeto Flutter:
 # User Loader Flutter
 
 Um aplicativo Flutter que permite ao usuário inserir um ID (entre 1 e 12) e buscar os dados de um usuário utilizando a API pública [ReqRes](https://reqres.in). O projeto segue conceitos de Domain-Driven Design (DDD), utiliza widgets personalizados e ícones da biblioteca [Lucide Icons](https://pub.dev/packages/lucide_icons) para criar uma experiência visual moderna e agradável.
