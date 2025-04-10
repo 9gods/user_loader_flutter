@@ -11,12 +11,15 @@ class ErrorDialog extends StatelessWidget {
   Widget build(BuildContext context) {
     return AlertDialog(
       backgroundColor: AppColors.red600,
-      title: Text(title, style: const TextStyle(color: Colors.white)),
-      content: Text(message, style: const TextStyle(color: Colors.white)),
+      title: Text(title, style: const TextStyle(color: AppColors.slate100)),
+      content: Text(message, style: const TextStyle(color: AppColors.slate100)),
       actions: [
         TextButton(
           onPressed: () => Navigator.pop(context),
-          child: const Text("Fechar", style: TextStyle(color: Colors.white)),
+          child: const Text(
+            "Fechar",
+            style: TextStyle(color: AppColors.slate100),
+          ),
         ),
       ],
     );
